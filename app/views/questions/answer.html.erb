@@ -1,0 +1,15 @@
+<h1>Answer</h1>
+
+<div class="m-2 border-start border-3 p-2">
+  <h4><%= params[:question] %></h4>
+  <h2>-You</h2>
+</div>
+
+<div class="bg-warning  m-4 border-start border-success">
+  <h4 class="fw-bold"><%= @answer %></h4>
+  <p>-Your coach</p>
+</div>
+
+
+
+<%= link_to "Ask a new question" , ask_path%>
